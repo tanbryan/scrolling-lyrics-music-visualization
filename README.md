@@ -15,19 +15,22 @@ The AI MV Generator produces several output files during its process, each showc
 
 This video demonstrates the visual effects generated based on the audio file. The visual elements are synchronized with the audio, providing an engaging visual representation of the music.
 
-![Visual Output]
+https://github.com/tanbryan/AI-mv-generator/assets/107380329/ccd23c7b-ab94-410b-8664-b7ab102ef148
+
 
 ### Cropped Subtitle
 
 This video shows the scrolling subtitles (similar to any music player app) added to the video. The subtitles are synchronized with the lyrics and scroll smoothly, making it easy to follow along with the music.
 
-![Scrolling Subtitle]
+https://github.com/tanbryan/AI-mv-generator/assets/107380329/a2120a05-f501-4b4d-ba37-3fab9bf1f614
+
 
 ### Final Output
 
 The final video combines all features: visual effects, scrolling subtitles, and additional metadata like the title, author, and timestamp. This video is fully synchronized and optimized for phone resolution, providing a high-quality music video experience.
 
-![Final Output]
+https://github.com/tanbryan/AI-mv-generator/assets/107380329/182a80bb-132e-4519-b797-f8fcd2922b47
+
 
 ## Prerequisites
 
