@@ -1,0 +1,8 @@
+file '/Users/bryannnh/Desktop/mp4-generator/mp4-generator/test/image/background2.jpeg'
+duration 10
+file '/Users/bryannnh/Desktop/mp4-generator/mp4-generator/test/image/background3.jpeg'
+duration 10
+file '/Users/bryannnh/Desktop/mp4-generator/mp4-generator/test/image/background4.jpeg'
+duration 10
+file '/Users/bryannnh/Desktop/mp4-generator/mp4-generator/test/image/background5.jpeg'
+duration 10

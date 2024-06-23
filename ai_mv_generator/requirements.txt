@@ -1,0 +1,7 @@
+numpy==1.24.2
+matplotlib==3.7.1
+librosa==0.9.2
+scipy==1.9.3
+pillow==9.5.0
+pylrc==0.2.5
+ffmpeg-python==0.2.0
