@@ -134,3 +134,10 @@ The idea for the audio analyzer and visualization using `librosa` was inspired b
 
 Special thanks to this YouTube video for providing sample tests: [Love Story - Taylor Swift (You Belong With Me) - Test Sample](https://www.youtube.com/watch?v=8xg3vE8Ie_E).
 
+---
+
+## Final Note
+
+If you encounter any issues, bugs, or have any questions, please do not hesitate to reach out to me at bryantan2968@gmail.com.
+
+---
