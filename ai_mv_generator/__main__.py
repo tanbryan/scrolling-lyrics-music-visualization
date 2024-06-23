@@ -5,8 +5,8 @@ from .utils import validate_file_path, print_welcome_message, print_audio_input_
 
 def main(settings):
     ### sample test inputs
-    # input_audio = "mv_generator/test/LoveStory-TaylorSwift.mp3"
-    # input_lyrics = "mv_generator/test/LoveStory-TaylorSwift.lrc"
+    # input_audio = "test/LoveStory-TaylorSwift.mp4"
+    # input_lyrics = "test/LoveStory-TaylorSwift.lrc"
 
     print_welcome_message()
     input_audio = print_audio_input_prompts()

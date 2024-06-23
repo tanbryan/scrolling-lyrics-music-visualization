@@ -6,7 +6,7 @@ only revise when really need it, some variables take time to debug
 """
 settings = {
     #  font file used for text (ScrollingSubtitlesGenerator).
-    'fontfile_path': "mp4_generator/ref/fonts/Noto_Sans_SC/static/NotoSansSC-Regular.ttf",
+    'fontfile_path': "ref/fonts/Noto_Sans_SC/static/NotoSansSC-Regular.ttf",
 
     # Font size for the subtitles (ScrollingSubtitlesGenerator).
     'font_size': 48,
@@ -51,7 +51,7 @@ settings = {
     'timestamp_color': "#ffffff@0.6",
 
     # Default background image used in the video
-    'background_image_path': "mp4_generator/ref/default_backgrounds/default.png",
+    'background_image_path': "ref/default_backgrounds/default.png",
 
     # Crop area (x, y, width, height) for the video (AudioVisualizer).
     'crop_size': (80, 560, 900, 272*2),

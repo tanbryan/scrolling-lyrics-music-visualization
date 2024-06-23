@@ -79,7 +79,7 @@ def print_audio_input_prompts():
     return input_audio
 
 def print_lyrics_input_prompts():
-    print("❗️Please enter the path for the lyrics file (e.g., LoveStory-TaylorSwift.lrc):")
+    print("\n❗️Please enter the path for the lyrics file (e.g., LoveStory-TaylorSwift.lrc):")
     print("❗️Make sure the lrc file is named in the sample format")
     print("❗️songname-singername.lrc without space between")
     print("❗️Make sure there is no \"'\" symbol in your lyrics file, it will confuse ffmpeg")

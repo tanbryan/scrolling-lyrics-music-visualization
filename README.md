@@ -15,19 +15,19 @@ The AI MV Generator produces several output files during its process, each showc
 
 This video demonstrates the visual effects generated based on the audio file. The visual elements are synchronized with the audio, providing an engaging visual representation of the music.
 
-![Visual Output](/Users/bryannnh/Desktop/AI-mv-generator/ai_mv_generator/test/visual_output.mp4)
+![Visual Output]
 
 ### Cropped Subtitle
 
 This video shows the scrolling subtitles (similar to any music player app) added to the video. The subtitles are synchronized with the lyrics and scroll smoothly, making it easy to follow along with the music.
 
-![Scrolling Subtitle](/Users/bryannnh/Desktop/AI-mv-generator/ai_mv_generator/test/cropped_subtitle.mp4)
+![Scrolling Subtitle]
 
 ### Final Output
 
 The final video combines all features: visual effects, scrolling subtitles, and additional metadata like the title, author, and timestamp. This video is fully synchronized and optimized for phone resolution, providing a high-quality music video experience.
 
-![Final Output](/Users/bryannnh/Desktop/AI-mv-generator/ai_mv_generator/test/LoveStory-TaylorSwift.mp4)
+![Final Output]
 
 ## Prerequisites
 
@@ -82,8 +82,8 @@ Before you begin, ensure you have met the following requirements:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/ultimate-mv-generator.git
-    cd ultimate-mv-generator
+    git clone https://github.com/tanbryan/AI-mv-generator
+    cd AI-mv-generator
     ```
 
 2. **Install the required Python packages:**
@@ -101,7 +101,7 @@ Before you begin, ensure you have met the following requirements:
 2. **Run the script:**
 
     ```bash
-    python -m mp4_generator
+    python -m ai_mv_generator
     ```
 
 3. **Follow the prompts to enter the paths for the audio and lyrics files:**
