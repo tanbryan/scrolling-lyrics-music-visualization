@@ -141,13 +141,12 @@ class AudioVisualizer:
                     np.linspace(0, reflection_bar.get_height(), gradient.shape[0] + 1)
                 )
 
-                plt.gca().pcolormesh(shadow_bar_x_grid, shadow_bar_y_grid, gradient, shading='auto', cmap=custom_cmap, alpha=0.05)
+                plt.gca().pcolormesh(shadow_bar_x_grid, shadow_bar_y_grid, gradient, shading='auto', cmap=custom_cmap, alpha=0.1)
                 plt.gca().pcolormesh(reflection_bar_x_grid, reflection_bar_y_grid, gradient, shading='auto', cmap=custom_cmap, alpha=0.05)
                 plt.gca().pcolormesh(x_grid, y_grid, gradient, shading='auto', cmap=custom_cmap, norm=norm)
 
             ax.set_ylim(plot_size[2], plot_size[3])
             ax.set_xlim(plot_size[0], plot_size[1])
-            
             percent_complete = (frame / total_chunks) * 100
             print(f"processing visual effect: {percent_complete:.2f}% complete")
 
