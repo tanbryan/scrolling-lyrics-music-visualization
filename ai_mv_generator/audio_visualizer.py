@@ -13,23 +13,7 @@ from .audio_analyzer import AudioAnalyzer
 from .utils import get_output_path, is_file_valid, hex_to_rgb_normalized
 
 class AudioVisualizer:
-    """
-    Create visual effects for audio files, convert audio to stereo, generate visual representations,
-    and overlay visuals onto background videos.
 
-    Attributes:
-    settings (dict): Configuration settings for visual generation and audio processing.
-
-    Methods:
-    stereo_convert(audio_input):
-        Converts the input audio file to stereo.
-    create_custom_colormap(hex_color):
-        Creates a custom colormap for visual effects.
-    visual(input):
-        Generates a visual representation of the audio file.
-    overlay_cropped_visual_video(audio_input):
-        Overlays the generated visual video onto a background video.
-    """
     def __init__(self, settings):
         self.settings = settings
 

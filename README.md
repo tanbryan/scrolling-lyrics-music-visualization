@@ -1,4 +1,8 @@
 # AI MV Generator
+
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+
 The AI MV Generator is a Python-based tool that allows users to transform audio and lyrics into stunning music videos with scrolling subtitles and visual effects. This tool is optimized for phone resolution and has been fine-tuned through extensive debugging to ensure high-quality output.
 
 🌹🌹🌹🌹🌹🌹 AI background still under testing and finetuning
@@ -144,3 +148,7 @@ Special thanks to this YouTube video for providing sample tests: [Love Story - T
 If you encounter any issues, bugs, or have any questions, please do not hesitate to reach out to me at bryantan2968@gmail.com.
 
 ---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

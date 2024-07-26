@@ -2,20 +2,7 @@ import librosa
 import numpy as np
 
 class AudioAnalyzer:
-    """
-    Analyze audio files and extract spectrogram data and decibel levels at specific times and frequencies.
 
-    Attributes:
-    frequencies_index_ratio (float): Ratio of the number of frequency bins to the maximum frequency.
-    time_index_ratio (float): Ratio of the number of time bins to the maximum time.
-    spectrogram (ndarray): Spectrogram data of the loaded audio file.
-
-    Methods:
-    load(filename):
-        Loads an audio file and calculates its spectrogram.
-    get_decibel(target_time, freq):
-        Retrieves the decibel level at a specific time and frequency from the spectrogram.
-    """
     def __init__(self):
         self.frequencies_index_ratio = 0
         self.time_index_ratio = 0

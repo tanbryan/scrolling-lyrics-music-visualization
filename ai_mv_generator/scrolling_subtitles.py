@@ -5,24 +5,9 @@ import numpy as np
 from .utils import get_output_path, is_file_valid, load_lrc, get_audio_duration, format_timestamp
 
 class ScrollingSubtitlesGenerator:
-    """
-    A class to generate scrolling subtitles for a music video, crop the video, overlay cropped subtitles, 
-    and add titles to the final video. 
-    ❗️❗️❗️ Please do not modify this class, this is the best I can do in ffmpeg syntax❗️❗️❗️
 
-    Attributes:
-    settings (dict): Configuration settings for subtitle generation, cropping, and overlay.
+    ###❗️❗️❗️ Please do not modify this class, this is the best I can do in ffmpeg syntax❗️❗️❗️
 
-    Methods:
-    video_with_scrolling_subtitles(input_audio, input_lyrics):
-        Generates a video with scrolling subtitles.
-    crop_video(input_audio):
-        Crops the video to fit subtitles within a specified area.
-    overlay_cropped_video(input_audio, crop_params):
-        Overlays the cropped subtitle video onto the main video.
-    add_title(input_audio):
-        Adds a title to the final video.
-    """
 
     def __init__(self, settings):
         self.settings = settings
