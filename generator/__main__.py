@@ -5,12 +5,12 @@ from .utils import validate_file_path, print_welcome_message, print_audio_input_
 
 def main(settings):
     ### sample test inputs
-    input_audio = "/Users/bryannnh/Desktop/test/LoveStory-TaylorSwift.mp3"
-    input_lyrics = "/Users/bryannnh/Desktop/test/LoveStory-TaylorSwift.lrc"
+    # input_audio = "replace your audio file path here"
+    # input_lyrics = "replace your lyrics file path here"
 
     print_welcome_message()
-    # input_audio = print_audio_input_prompts()
-    # input_lyrics = print_lyrics_input_prompts()
+    input_audio = print_audio_input_prompts()
+    input_lyrics = print_lyrics_input_prompts()
 
     audio_visualizer = AudioVisualizer(settings)
     scrolling_subtitles_generator = ScrollingSubtitlesGenerator(settings)

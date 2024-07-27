@@ -108,7 +108,7 @@ Before you begin, ensure you have met the following requirements:
 2. **Run the script:**
 
     ```bash
-    python -m ai_mv_generator
+    python -m generator
     ```
 
 3. **Follow the prompts to enter the paths for the audio and lyrics files:**
